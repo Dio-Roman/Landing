@@ -1,0 +1,107 @@
+body {
+    background-color: #277cbf;
+}
+.screen1 {
+    box-shadow: 0 0 14px 0px black;
+}
+.logo img {
+    margin-top: 30px;
+}
+.menu li {
+    list-style: none;
+    display: inline-block; 
+    margin-top: 30px;
+    margin-right: 53px;
+}
+.menu a {
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    color: white;
+}
+.menu ul {
+    padding: 0px;
+}
+.menu ul li:last-child {
+    margin-right: 0px;
+}
+.top {
+    background-color: #213d52;
+    height: 90px;
+    margin: 10px 10px 0px 10px;
+}
+.menu li .active {
+    border-bottom: 1px solid #277cbf;
+    color: #277cbf;
+}
+.menu li:hover {
+    border-bottom: 1px solid #277cbf;
+}
+/*Блок контента*/
+.text {
+    margin-top: 160px;
+}
+.main {
+    background-color: #1f3542;
+    height: 80%;
+    margin: 0px 10px 10px 10px;
+}
+h1 {
+    font-weight: bold; 
+    font-size: 57px;
+}
+h1, h2, p {
+    color: white;
+}
+button {
+    background-color: white;
+    color: #082b4b;
+    font-weight: bold;
+    border-radius: 37px;
+    padding: 13px 35px;
+    border-color: white;
+}
+p .learn {
+    background-color: #1f3542;
+    color: white;
+    font-weight: bold;
+    border-radius: 37px;
+    padding: 13px 35px;
+    border-color: white;
+}
+.btn {
+    margin-top: 30px;
+    display: block;
+    padding-left: 0px;
+}
+.pages {
+    display: inline-block;
+    margin-top: 81px;
+}
+.pages a {
+    margin-right: 10px;
+    font-weight: bold;
+    color: #6d7781;
+}
+.pages .active {
+    font-size: 16px;
+    text-decoration: underline;
+    color: #298ddb;
+}
+.hand-phone {
+    margin-top: 158px;
+}
+.btn-left {
+    border: 0px;
+    background-color: white;
+    padding: 0px;
+    position: relative;
+    left: 5px;
+    top: -481px;
+
+}
+.glyphicon {
+    font-size: 40px;
+    color: #213d52;
+    
+}
